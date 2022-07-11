@@ -104,7 +104,7 @@ class VideoEncoder(threading.Thread):
                     #acodec="copy",
                     r=frame_rate,
                     crf=0,
-                    preset=veryslow,
+                    preset="veryslow",
                     vsync="1",
                     # map_metadata=1,
                     # metadata="comment=Upscaled with Video2X",
